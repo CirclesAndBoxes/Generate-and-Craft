@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "#minecraft:repairs_leather_armor",
+      "X": "minecraft:arrow"
+    },
+    "pattern": [
+      "XXX",
+      "X#X",
+      "XXX"
+    ],
+    "result": {
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 0
+        }
+      },
+      "count": 8,
+      "id": "minecraft:tipped_arrow"
+    }
+  }

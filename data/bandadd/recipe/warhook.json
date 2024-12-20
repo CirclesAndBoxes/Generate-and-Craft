@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "custom",
+    "key": {
+      "s": [
+        "minecraft:stick"
+      ],
+      "S": [
+        "minecraft:string"
+      ],
+      "i": [
+        "minecraft:iron_ingot"
+      ]
+    },
+    "pattern": [
+      "  s",
+      " sS",
+      "s i"
+    ],
+    "result": {
+      "components": {
+        "minecraft:custom_data": {
+          "Warhook": 1
+        },
+        "minecraft:lore": [
+          "\"Bobber Deals Damage\""
+        ],
+        "minecraft:item_name": "\"War Hook\"",
+        "minecraft:rarity": "uncommon",
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:attack_damage",
+              "id": "minecraft:",
+              "amount": 5,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+              "type": "minecraft:attack_speed",
+              "id": "minecraft:",
+              "amount": -2.4,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:fishing_rod"
+    }
+  }
