@@ -1,0 +1,2 @@
+* The files in this folder is how its referenced in locate commands
+* Tells us how its spawned

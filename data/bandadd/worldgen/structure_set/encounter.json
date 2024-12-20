@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "bandadd:encounter",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 40,
+      "separation": 9,
+      "spread_type": "triangular",
+      "salt": 182500001
+    }
+  }
