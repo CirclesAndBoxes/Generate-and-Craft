@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "h": "minecraft:player_head",
+      "b": "minecraft:barrel"
+    },
+    "pattern": [
+      "b",
+      "h"
+    ],
+    "result": {
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:player_head"
+    }
+  }

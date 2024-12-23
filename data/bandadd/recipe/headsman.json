@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "h": "minecraft:player_head",
+      "t": "minecraft:totem_of_undying",
+      "r": "minecraft:redstone",
+      "T": "minecraft:soul_torch",
+      "w": "minecraft:golden_axe",
+      "g": "minecraft:gold_ingot"
+    },
+    "pattern": [
+      "Thg",
+      "rwh",
+      "trT"
+    ],
+    "result": {
+      "components": {
+        "minecraft:item_name": "\"Headsman\"",
+        "minecraft:lore": [
+          "\"Takes Heads\""
+        ]
+      },
+      "count": 1,
+      "id": "minecraft:golden_sword"
+    }
+  }
