@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "r": "minecraft:redstone",
+      "i": "minecraft:iron_ingot",
+      "s": "minecraft:stick"
+    },
+    "pattern": [
+      "rir",
+      "rir",
+      " s "
+    ],
+    "result": {
+      "components": {
+        "minecraft:custom_data": {
+          "Lifesteal": 1
+        }
+      },
+      "count": 1,
+      "id": "minecraft:iron_sword"
+    }
+  }
