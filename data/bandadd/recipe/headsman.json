@@ -15,12 +15,15 @@
     ],
     "result": {
       "components": {
-        "minecraft:item_name": "\"Headsman\"",
+        "minecraft:item_name": "{\"text\":\"The Guillotine\",\"italic\": false,\"color\":\"#d20303\",\"bold\": true}",
         "minecraft:lore": [
-          "\"Takes Heads\""
-        ]
+            "{\"text\":\"Takes Heads\",\"italic\": false,\"color\":\"red\"}"
+        ],
+        "custom_data": {
+          "Headsman": 1
+        }
       },
       "count": 1,
-      "id": "minecraft:golden_sword"
+      "id": "minecraft:golden_axe"
     }
   }

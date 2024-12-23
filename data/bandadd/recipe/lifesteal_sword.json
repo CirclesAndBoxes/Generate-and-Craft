@@ -3,7 +3,7 @@
     "category": "misc",
     "key": {
       "r": "minecraft:redstone",
-      "i": "minecraft:iron_ingot",
+      "i": "minecraft:gold_ingot",
       "s": "minecraft:stick"
     },
     "pattern": [
@@ -14,10 +14,12 @@
     "result": {
       "components": {
         "minecraft:custom_data": {
-          "Lifesteal": 1
-        }
+          "LifeSteal": 1
+        },
+        "item_name": "\"Life Leech\""
+        
       },
       "count": 1,
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:golden_sword"
     }
   }

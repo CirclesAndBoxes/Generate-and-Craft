@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "speed_boost": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": {
+                "SpeedRod": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bandadd:special_items/speed_rod"
+    },
+    "sends_telemetry_event": false
+  }

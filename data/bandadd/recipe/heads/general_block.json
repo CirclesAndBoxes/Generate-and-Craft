@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "h": "minecraft:player_head",
-      "b": "minecraft:chest"
+      "b": "minecraft:barrier"
     },
     "pattern": [
       "b",

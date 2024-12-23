@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "r": "minecraft:breeze_rod",
+      "f": "minecraft:feather",
+      "s": "minecraft:sugar",
+      "a": "minecraft:amethyst_shard"
+    },
+    "pattern": [
+      " fa",
+      "srf",
+      "as "
+    ],
+    "result": {
+      "components": {
+        "minecraft:custom_data": {
+          "SpeedRod": 1
+        },
+        "item_name": "\"Speed Rod\"",
+        "minecraft:lore": [
+            "{\"text\":\"10 Seconds of Speed I\",\"italic\": false,\"color\":\"white\"}",
+            "{\"text\":\"30 Seconds Cooldown\",\"italic\": false,\"color\":\"white\"}"
+        ],
+        "consumable": {
+          "consume_seconds": 0
+        },
+        "use_cooldown": {
+          "seconds": 30,
+          "cooldown_group": "speed_rod"
+        },
+        "minecraft:use_remainder": {
+          "id": "minecraft:breeze_rod",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 0,
+              "animation": "none",
+              "sound": "entity.bat.takeoff",
+              "has_consume_particles":false,
+              "on_consume_effects": [
+                  {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 200,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:custom_data": {
+              "SpeedRod": 1
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:breeze_rod",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0
+                },
+                "minecraft:custom_data": {
+                  "SpeedRod": 1
+                }
+              },
+              "count": 1
+            },
+            "minecraft:item_name": "\"Speed Rod\"",
+            "max_stack_size": 1
+          },
+      "count": 1
+    },
+    "max_stack_size": 1
+      },
+      "count": 1,
+      "id": "minecraft:breeze_rod"
+    }
+  }

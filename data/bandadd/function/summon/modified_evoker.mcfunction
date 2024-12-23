@@ -1,0 +1,1 @@
+summon ravager ~ ~ ~ {PersistenceRequired:1b,Passengers:[{id:"minecraft:evoker",DeathLootTable:"",PersistenceRequired:1b}]}

@@ -1,0 +1,143 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Guillotine Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "The Guillotine\n",
+                      "\n",
+                      "\"Thg\"\n",
+                      "\"rwh\"\n",
+                      "\"trT\"\n",
+                      "\n",
+                      "h: player head\n",
+                      "t: totem of undying\n",
+                      "r: redstone\n",
+                      "T: soul torch\n",
+                      "w: golden axe\n",
+                      "g: gold ingot"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Speed Rod Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "Speed Rod\n\n",
+                      "Top Row: (empty), Feather, Amethyst Shard\n\n",
+                      "Middle Row: Sugar, Breeze Rod, Feather\n\n",
+                      "Bottom Row: Amethyst Shard, Sugar, (empty)\n\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Life Leech Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "Life Leech\n\n",
+                      "Top Row: Redstone Dust, Gold Ingot, Redstone Dust\n\n",
+                      "Middle Row: Redstone Dust, Gold Ingot, Redstone Dust\n\n",
+                      "Bottom Row: (empty), Stick, (empty)\n\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Player Head Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "Player Head\n\n",
+                      "First Row: Rotten Flesh, Rotten Flesh, Rotten Flesh\n\n",
+                      "Second Row: Rotten Flesh, Some Helmet, Rotten Flesh\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "War Hook Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "War Hook\n\n",
+                      "Top Row: (empty), (empty), Stick\n\n",
+                      "Middle Row: (empty), Stick, String\n\n",
+                      "Bottom Row: Stick, (empty), Iron Ingot\n\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

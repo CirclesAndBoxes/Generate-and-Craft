@@ -1,24 +1,27 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_killed_entity",
-        "conditions": {
-          "player": {
-            "equipment": {
-              "mainhand": {
-                "components": {
-                  "custom_data": {
-                    "LifeSteal" : 1
-                  }
+  "criteria": {
+    "killed_with_lifesteal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "LifeSteal": 1
                 }
               }
             }
           }
+        },
+        "killing_blow": {
+          "is_direct": true
         }
       }
-    },
-    "rewards": {
-      "function": "bandadd:special_items/life_steal"
     }
-  }
-  
+  },
+  "rewards": {
+    "function": "bandadd:special_items/life_steal"
+  },
+  "sends_telemetry_event": false
+}

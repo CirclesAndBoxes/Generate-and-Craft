@@ -1,0 +1,57 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:use_remainder": {
+        "id": "minecraft:breeze_rod",
+        "components": {
+          "minecraft:consumable": {
+            "consume_seconds": 0,
+            "animation": "none"
+          },
+          "minecraft:custom_data": {
+            "SpeedRod": 1
+          },
+          "minecraft:use_remainder": {
+            "id": "minecraft:breeze_rod",
+            "components": {
+              "minecraft:consumable": {
+                "consume_seconds": 0,
+                "animation": "none",
+                "has_consume_particles":false,
+                "on_consume_effects": [
+                    {
+                    "type": "minecraft:apply_effects",
+                    "effects": [
+                      {
+                        "id": "minecraft:speed",
+                        "amplifier": 0,
+                        "duration": 200,
+                        "show_particles": false
+                      }
+                    ]
+                  }
+                ],
+                "sound": "entity.bat.takeoff"
+              },
+              "minecraft:custom_data": {
+                "SpeedRod": 1
+              }
+            },
+            "count": 1
+          },
+          "minecraft:item_name": "\"Speed Rod\""
+        },
+        "count": 1
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 30,
+        "cooldown_group": "speed_rod"
+      },
+      "minecraft:lore": [
+            "{\"text\":\"10 Seconds of Speed I\",\"italic\": false,\"color\":\"white\"}",
+            "{\"text\":\"30 Seconds Cooldown\",\"italic\": false,\"color\":\"white\"}"
+        ],
+        "max_stack_size": 1
+    },
+    "conditions": []
+  }

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "beheaded": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "Headsman": 1
+                  }
+                }
+              }
+            }
+          },
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bandadd:special_items/beheaded"
+  },
+  "sends_telemetry_event": false
+}
