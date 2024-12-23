@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "h": "minecraft:player_head",
-      "b": "minecraft:redstone_block"
+      "b": "minecraft:cake"
     },
     "pattern": [
       "b",
@@ -14,7 +14,7 @@
           "properties": [
             {
               "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg5ODg1MjNmMjYzMWRlNWNiMDFmZGVhMzg3MDViNjRlYjkwNjY2N2Q4ZDk5YmNiODU5YTBhMTZkYjU5MWE3OCJ9fX0="
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZkMDNhOGRiMDE1NTMxZTZlZTVlODI4NGY0OWJlNDE1ZDU0NzMzMmI3MGI3ZjNmYjE5OTI5YjRkM2Y5N2U3MyJ9fX0="
             }
           ]
         }
