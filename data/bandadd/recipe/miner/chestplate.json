@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "dld",
+      "ptp",
+      "dcd"
+    ],
+    "key": {
+      "l": "minecraft:leather_chestplate",
+      "p": "minecraft:iron_pickaxe",
+      "c": "minecraft:chainmail_chestplate",
+      "t": "minecraft:shaper_armor_trim_smithing_template",
+      "d": "minecraft:deepslate"
+    },
+    "result": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:mining_efficiency",
+              "id": "minecraft:mining_efficiency",
+              "amount": 0.05,
+              "operation": "add_multiplied_base",
+              "slot": "head"
+            }
+          ]
+        },
+        "minecraft:dyed_color": {
+          "rgb": 5395026
+        },
+        "minecraft:item_name": "\"Miner's Chestplate\"",
+        "minecraft:rarity": "epic"
+      }
+    },
+    "show_notification": false
+  }
