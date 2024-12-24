@@ -23,7 +23,8 @@
           "Warhook": 1
         },
         "minecraft:lore": [
-          "\"Bobber Deals Damage\""
+          "\"Damages on pull\n\"",                    
+          "\"Only works in mainhand\""
         ],
         "minecraft:item_name": "\"War Hook\"",
         "minecraft:rarity": "uncommon",

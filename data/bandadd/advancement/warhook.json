@@ -1,18 +1,27 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:fishing_rod"
-            ]
+  "criteria": {
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:fishing_rod"
+            }
+          }
+        },
+        "rod": {
+          "components": {
+            "minecraft:custom_data": {
+              "Warhook": 1
+            }
           }
         }
       }
-    },
-    "rewards": {
-      "function": "bandadd:special_items/bobber_use"
     }
-  }
-  
+  },
+  "rewards": {
+    "function": "bandadd:special_items/bobber_hook"
+  },
+  "sends_telemetry_event": false
+}
