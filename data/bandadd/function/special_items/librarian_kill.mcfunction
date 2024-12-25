@@ -1,0 +1,2 @@
+advancement revoke @s only bandadd:librarian_summon
+function bandadd:summon_villager/summon_villager

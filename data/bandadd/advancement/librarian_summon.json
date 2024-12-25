@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "killed_librarian": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "LibrarianKiller": 1
+                  }
+                }
+              }
+            }
+          },
+          "entity": {
+            "type": "villager",
+            "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+          },
+          "killing_blow": {
+            "is_direct": true
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bandadd:special_items/librarian_kill"
+    },
+    "sends_telemetry_event": false
+  }

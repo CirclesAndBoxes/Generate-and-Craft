@@ -161,6 +161,31 @@
                 "mode": "replace_all"
               }
             ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Librarian Reset Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "Librarian Reset\n\n",
+                      "Top Row: Lectern, Diamond, Lectern \n\n",
+                      "Middle Row: Lectern, Diamond, Lectern\n\n",
+                      "Bottom Row: Emerald, Totem of Undying, Emerald\n\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
           }
         ]
       }

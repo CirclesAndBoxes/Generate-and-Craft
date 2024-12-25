@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LdL",
+      "LdL",
+      "eTe"
+    ],
+    "key": {
+      "L": "minecraft:lectern",
+      "d": "minecraft:diamond",
+      "T": "minecraft:totem_of_undying",
+      "e": "minecraft:emerald"
+    },
+    "result": {
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:custom_data": {
+          "LibrarianKiller": 1
+        },
+        "minecraft:item_name": "\"Librarian Reset\"",
+        "minecraft:rarity": "epic",
+        "minecraft:lore": [
+          "{\"text\":\"Summons a new librarian where you stand\",\"italic\": false,\"color\":\"gray\"}"
+        ]
+      }
+    }
+  }

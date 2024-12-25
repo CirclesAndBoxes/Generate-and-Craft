@@ -4,3 +4,4 @@
 
 
 execute as @e[type=fishing_bobber,tag=WarBobber,nbt={OnGround:false}] at @s run function bandadd:special_items/bobber_tick
+execute as @e[type=zombie,tag=ba.turret] at @s run function bandadd:summon_tick/turret

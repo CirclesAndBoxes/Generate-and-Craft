@@ -9,6 +9,9 @@
       },{
         "structure": "bandadd:snow_globe",
         "weight": 1
+      },{
+        "structure": "bandadd:summon_cage",
+        "weight": 1
       }
     ],
     "placement": {
