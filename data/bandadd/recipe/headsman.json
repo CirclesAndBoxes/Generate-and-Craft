@@ -17,7 +17,7 @@
       "components": {
         "minecraft:item_name": "{\"text\":\"The Guillotine\",\"italic\": false,\"color\":\"#d20303\",\"bold\": true}",
         "minecraft:lore": [
-            "{\"text\":\"Takes Heads\",\"italic\": false,\"color\":\"red\"}"
+            "{\"text\":\"Takes Player Heads\",\"italic\": false,\"color\":\"red\"}"
         ],
         "custom_data": {
           "Headsman": 1

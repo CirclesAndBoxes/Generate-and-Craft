@@ -20,7 +20,8 @@
         "minecraft:item_name": "\"Librarian Reset\"",
         "minecraft:rarity": "epic",
         "minecraft:lore": [
-          "{\"text\":\"Summons a new librarian where you stand\",\"italic\": false,\"color\":\"gray\"}"
+          "{\"text\":\"Summons a new librarian where you stand\",\"italic\": false,\"color\":\"gray\"}",
+            "{\"text\":\"Only works when killing librarians\",\"italic\": true,\"color\":\"gray\"}"
         ]
       }
     }
