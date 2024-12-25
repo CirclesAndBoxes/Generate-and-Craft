@@ -136,6 +136,31 @@
                 "mode": "replace_all"
               }
             ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_book_cover",
+                "title": {
+                  "raw": "Mining Armor Recipe"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "raw": [
+                      "Mining Armor\n\n",
+                      "Top Row: Deepslate, Leather Armor Piece, Deepslate\n\n",
+                      "Middle Row: Iron Pickaxe, Shaper Armor Trip, Iron Pickaxe\n\n",
+                      "Bottom Row: Deepslate, Chainmail Armor Piece, Deepslate\n\n"
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
           }
         ]
       }

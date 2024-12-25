@@ -1,7 +1,13 @@
 {
     "structures": [
       {
-        "structure": "bandadd:encounter",
+        "structure": "bandadd:bamboo",
+        "weight": 1
+      },{
+        "structure": "bandadd:stone_tower",
+        "weight": 1
+      },{
+        "structure": "bandadd:snow_globe",
         "weight": 1
       }
     ],
