@@ -17,6 +17,15 @@
             "value": "chests/ancient_city_ice_box"
           }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "chests/village/village_snowy_house"
+          }
+        ]
       }
     ]
   }
