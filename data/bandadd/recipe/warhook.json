@@ -28,8 +28,7 @@
         ],
         "minecraft:item_name": "\"War Hook\"",
         "minecraft:rarity": "uncommon",
-        "minecraft:attribute_modifiers": {
-          "modifiers": [
+        "minecraft:attribute_modifiers": [
             {
               "type": "minecraft:attack_damage",
               "id": "minecraft:",
@@ -45,7 +44,6 @@
               "slot": "mainhand"
             }
           ]
-        }
       },
       "count": 1,
       "id": "minecraft:fishing_rod"

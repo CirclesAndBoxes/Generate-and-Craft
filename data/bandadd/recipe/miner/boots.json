@@ -15,8 +15,7 @@
     "result": {
       "id": "minecraft:leather_boots",
       "components": {
-        "minecraft:attribute_modifiers": {
-          "modifiers": [
+        "minecraft:attribute_modifiers": [
             {
               "type": "minecraft:mining_efficiency",
               "id": "minecraft:mining_efficiency",
@@ -24,11 +23,8 @@
               "operation": "add_multiplied_base",
               "slot": "head"
             }
-          ]
-        },
-        "minecraft:dyed_color": {
-          "rgb": 5395026
-        },
+          ],
+        "minecraft:dyed_color": 5395026,
         "minecraft:item_name": "\"Miner's Boots\"",
         "minecraft:rarity": "epic"
       }
